@@ -42,7 +42,7 @@ fun AIAssistantScreen(navController: NavController) {
     val generativeModel = remember {
         GenerativeModel(
             modelName = "gemini-1.5-flash",
-            apiKey = "AIzaSyCFHqsS1eqD6T89zDpI0TDdamkQCFICIXA",
+            apiKey = "",
             requestOptions = RequestOptions(apiVersion = "v1"),
         )
     }
